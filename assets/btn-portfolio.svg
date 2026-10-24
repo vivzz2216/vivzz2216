@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="44" viewBox="0 0 180 44" fill="none">
+  <rect x="1" y="1" width="178" height="42" rx="10" fill="#0b1120" fill-opacity="0.8" stroke="#475569" stroke-width="1.5"/>
+  <!-- Book Icon -->
+  <path d="M22 15C20.5 15 19 15.5 18 16.5V28.5C19 27.5 20.5 27 22 27H27V15H22Z" stroke="#e2e8f0" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M32 15C33.5 15 35 15.5 36 16.5V28.5C35 27.5 33.5 27 32 27H27V15H32Z" stroke="#e2e8f0" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Text -->
+  <text x="46" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#e2e8f0">
+    View Portfolio ↗
+  </text>
+</svg>
