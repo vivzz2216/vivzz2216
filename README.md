@@ -1,95 +1,117 @@
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/hero-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/hero.svg" alt="Vivek Pillai. Backend and machine learning engineer. Generative AI, evaluation, and computer vision." width="100%" />
-</picture>
+<div align="center">
 
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/about-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/about.svg" alt="I build backend systems and machine learning applications, with a focus on generative AI, agent evaluation, and computer vision. Open to Backend and AI/ML opportunities." width="100%" />
-</picture>
+<table width="100%">
+<tr>
+<td width="64%" valign="middle">
+<p><sub>RECRUITER SIGNAL BRIEF · vivzz2216</sub></p>
+<h1>Vivek Pillai</h1>
+<h2>Frontend or full-stack engineer</h2>
+<p>Passionate developer building innovative solutions.
+ Focused on clean code, scalable design, and impactful projects.</p>
+<p><strong>● Building and sharing work in public</strong></p>
+
+<p><a href="https://github.com/vivzz2216">GitHub</a></p>
+</td>
+<td width="36%" valign="middle" align="center">
+<img src="https://avatars.githubusercontent.com/u/142660428?u=c372197cc3c28e85fbbf8fbd156a748588a3c669&amp;v=4" width="180" alt="Vivek Pillai GitHub avatar" />
+</td>
+</tr>
+</table>
+</div>
+
+<h2>What teams can evaluate quickly</h2>
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top"><h3>Role fit</h3><p>Frontend or full-stack engineer · Python · TypeScript · JavaScript</p></td>
+<td width="33%" valign="top"><h3>Public proof</h3><p>21 repositories · 1 stars</p></td>
+<td width="33%" valign="top"><h3>Momentum</h3><p>90 contributions · 26 active days</p></td>
+</tr>
+</table>
+
+<p><sub>Passionate developer building innovative solutions.
+ Focused on clean code, scalable design, and impactful projects.</sub></p>
+
+<h2>Proof at a glance</h2>
+
+<table width="100%">
+<tr>
+<td width="25%" align="center"><strong>21</strong><br /><sub>Repositories</sub></td>
+<td width="25%" align="center"><strong>1</strong><br /><sub>Stars</sub></td>
+<td width="25%" align="center"><strong>90</strong><br /><sub>Contributions</sub></td>
+<td width="25%" align="center"><strong>0</strong><br /><sub>Followers</sub></td>
+</tr>
+</table>
 
 <p align="center">
-  <a href="mailto:pillaivivek200@gmail.com">Get in touch</a> &nbsp; · &nbsp;
-  <a href="https://github.com/vivzz2216?tab=repositories">Explore my repositories</a>
-  <br /><br />
-  <a href="https://giphy.com/explore/pixel-cats-stickers"><img src="https://media1.giphy.com/media/UQ1EI1ML2ABQdbebup/giphy.gif" alt="Animated pixel cat waving its paws" width="80" height="80" /></a>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=vivzz2216&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F142660428%3Fu%3Dc372197cc3c28e85fbbf8fbd156a748588a3c669%26v%3D4&v=recruiter-stats-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stats?username=vivzz2216&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F142660428%3Fu%3Dc372197cc3c28e85fbbf8fbd156a748588a3c669%26v%3D4&v=recruiter-stats-1&mode=dark" width="100%" alt="Vivek Pillai GitHub proof metrics" />
+</picture>
 </p>
 
+<h2>Selected work</h2>
+
+<table width="100%">
+<tr>
+<td width="58%" valign="top">
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/work-heading-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/work-heading.svg" alt="Selected work" width="100%" />
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=vivzz2216&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F142660428%3Fu%3Dc372197cc3c28e85fbbf8fbd156a748588a3c669%26v%3D4&repos=vivzz2216%2Fface2phase%2Cvivzz2216%2Fvivzz2216%2Cvivzz2216%2Fveruance%2Cvivzz2216%2Fgta6-clipper-yt&v=recruiter-projects-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/projects?username=vivzz2216&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F142660428%3Fu%3Dc372197cc3c28e85fbbf8fbd156a748588a3c669%26v%3D4&repos=vivzz2216%2Fface2phase%2Cvivzz2216%2Fvivzz2216%2Cvivzz2216%2Fveruance%2Cvivzz2216%2Fgta6-clipper-yt&v=recruiter-projects-1&mode=dark" width="100%" alt="Vivek Pillai selected projects" />
 </picture>
+</td>
+<td width="42%" valign="top">
+<h3><a href="https://github.com/vivzz2216/face2phase">face2phase</a></h3>
+<p>A selected public project.</p>
+<p><sub>Python · ⭐ 1 · 🍴 0</sub></p>
+<p><a href="https://github.com/vivzz2216/face2phase">Read the repository →</a></p>
+</td>
+</tr>
+</table>
 
-<a href="https://github.com/vivzz2216/gwen-2.1-image-generation">
+<table width="100%">
+<tr>
+<td width="33%" valign="top"><h3><a href="https://github.com/vivzz2216/vivzz2216">vivzz2216</a></h3><p>A selected public project.</p><p><sub>Python · ⭐ 0</sub></p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/vivzz2216/veruance">veruance</a></h3><p>A selected public project.</p><p><sub>CSS · ⭐ 0</sub></p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/vivzz2216/gta6-clipper-yt">gta6-clipper-yt</a></h3><p>A selected public project.</p><p><sub>Open source · ⭐ 0</sub></p></td>
+</tr>
+</table>
+
+<h2>Technical toolkit</h2>
+
+<p align="center">
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/qwen-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/qwen.svg" alt="Qwen 2.1 Image Studio — diffusion image generation pipeline and creative workflow studio." width="100%" />
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=vivzz2216&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F142660428%3Fu%3Dc372197cc3c28e85fbbf8fbd156a748588a3c669%26v%3D4&v=recruiter-stack-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stack?username=vivzz2216&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F142660428%3Fu%3Dc372197cc3c28e85fbbf8fbd156a748588a3c669%26v%3D4&v=recruiter-stack-1&mode=dark" width="100%" alt="Vivek Pillai technology stack" />
 </picture>
-</a>
+</p>
 
-<a href="https://github.com/vivzz2216/ethos-ai-evaluator">
+<table width="100%">
+<tr>
+<td width="20%" align="center"><strong>Python</strong><br /><sub>40% of public code</sub></td>
+<td width="20%" align="center"><strong>TypeScript</strong><br /><sub>36% of public code</sub></td>
+<td width="20%" align="center"><strong>JavaScript</strong><br /><sub>9% of public code</sub></td>
+<td width="20%" align="center"><strong>HTML</strong><br /><sub>8% of public code</sub></td>
+<td width="20%" align="center"><strong>CSS</strong><br /><sub>6% of public code</sub></td>
+</tr>
+</table>
+
+<h2>Consistency signal</h2>
+
+<p align="center">
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/ethos-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/ethos.svg" alt="ETHOS AI Evaluator — automated evaluation and benchmarking for intelligent systems." width="100%" />
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=vivzz2216&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F142660428%3Fu%3Dc372197cc3c28e85fbbf8fbd156a748588a3c669%26v%3D4&v=recruiter-heatmap-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/heatmap?username=vivzz2216&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F142660428%3Fu%3Dc372197cc3c28e85fbbf8fbd156a748588a3c669%26v%3D4&v=recruiter-heatmap-1&mode=dark" width="100%" alt="Vivek Pillai contribution activity" />
 </picture>
-</a>
+</p>
 
-<a href="https://github.com/vivzz2216/CampusHub">
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/campus-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/campus.svg" alt="CampusHub — student collaboration and campus resource management." width="100%" />
-</picture>
-</a>
+<hr />
 
-<a href="https://github.com/vivzz2216/face2phase">
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/face-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/face.svg" alt="Face2Phase — computer vision and biometric facial processing." width="100%" />
-</picture>
-</a>
+<table width="100%">
+<tr>
+<td width="62%" valign="middle"><h2>Let’s talk about the next build</h2><p>Open to thoughtful teams, ambitious products, and useful engineering work.</p></td>
+<td width="38%" valign="middle" align="right"><a href="https://github.com/vivzz2216">GitHub</a></td>
+</tr>
+</table>
 
-<a href="https://github.com/vivzz2216/pastebin-lite">
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/pastebin-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/pastebin.svg" alt="Pastebin Lite — lightweight paste and snippet sharing." width="100%" />
-</picture>
-</a>
-
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/toolkit-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/toolkit.svg" alt="Tools I work with. Machine learning: Python, PyTorch, Hugging Face, Diffusers, Ollama, OpenCV. Backend: FastAPI, Node.js, PostgreSQL, Docker. Frontend: TypeScript, JavaScript, React, Next.js, Tailwind CSS, Vite." width="100%" />
-</picture>
-
-<a href="mailto:pillaivivek200@gmail.com">
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/footer-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/vivzz2216/vivzz2216/b66cf598fbf9eeb2bfb4e4ca8cddad9777a53d9f/assets/animated/footer.svg" alt="Say hello. Email pillaivivek200@gmail.com." width="100%" />
-</picture>
-</a>
-
-<details>
-<summary>Read the text version</summary>
-
-## Vivek Pillai
-
-Backend and machine learning engineer. I build backend systems and machine learning applications, with a focus on generative AI, agent evaluation, and computer vision.
-
-Open to Backend and AI/ML opportunities. [Email me](mailto:pillaivivek200@gmail.com).
-
-### Selected work
-
-- [Qwen 2.1 Image Studio](https://github.com/vivzz2216/gwen-2.1-image-generation) — diffusion image generation pipeline and creative workflow studio.
-- [ETHOS AI Evaluator](https://github.com/vivzz2216/ethos-ai-evaluator) — automated evaluation and benchmarking for intelligent systems.
-- [CampusHub](https://github.com/vivzz2216/CampusHub) — student collaboration and campus resource management.
-- [Face2Phase](https://github.com/vivzz2216/face2phase) — computer vision and biometric facial processing.
-- [Pastebin Lite](https://github.com/vivzz2216/pastebin-lite) — lightweight paste and snippet sharing.
-
-### Tools I work with
-
-**Machine learning:** Python · PyTorch · Hugging Face · Diffusers · Ollama · OpenCV  
-**Backend:** FastAPI · Node.js · PostgreSQL · Docker  
-**Frontend:** TypeScript · JavaScript · React · Next.js · Tailwind CSS · Vite
-
-</details>
-
-<p align="center"><sub>Animated cat sticker via <a href="https://giphy.com/explore/pixel-cats-stickers">GIPHY</a></sub></p>
+<p align="center"><sub>Vivek Pillai · recruiter-ready profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
