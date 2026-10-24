@@ -1,13 +1,15 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/profile-header.svg" alt="Vivek Pillai — Backend, Machine Learning, Applied AI" width="100%" />
+</p>
 
 <table>
   <tr>
     <td valign="middle">
-      <h1>Vivek Pillai</h1>
-      <strong>Backend &amp; Machine Learning Engineer</strong><br />
       I build backend systems and machine learning applications, with a focus on generative AI, agent evaluation, and computer vision.<br /><br />
       <a href="mailto:pillaivivek200@gmail.com">Email</a> ·
       <a href="https://github.com/vivzz2216">GitHub</a>
+      <br /><br />
+      <sub>Open to Backend and AI/ML opportunities</sub>
     </td>
     <td width="150" align="center" valign="middle">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Cartoon_Cat_Running.gif" width="131" height="99" alt="Animated hand-drawn cat running" /><br />
@@ -16,11 +18,9 @@
   </tr>
 </table>
 
-</div>
-
 ---
 
-### Selected projects
+## Selected work
 
 | Project | Description |
 | --- | --- |
@@ -30,14 +30,12 @@
 | [Face2Phase](https://github.com/vivzz2216/face2phase) | Computer vision and biometric facial processing application. |
 | [Pastebin Lite](https://github.com/vivzz2216/pastebin-lite) | Lightweight paste and snippet sharing service. |
 
-### Tools and technologies
+## Toolkit
 
 **Machine learning** · Python · PyTorch · Hugging Face · Diffusers · Ollama · OpenCV  
 **Backend** · FastAPI · Node.js · PostgreSQL · Docker  
 **Frontend** · TypeScript · JavaScript · React · Next.js · Tailwind CSS · Vite
 
----
-
 <p align="center">
-  Open to Backend and AI/ML opportunities · <a href="mailto:pillaivivek200@gmail.com">Get in touch</a>
+  <sub>Thanks for stopping by · <a href="mailto:pillaivivek200@gmail.com">Get in touch</a></sub>
 </p>
