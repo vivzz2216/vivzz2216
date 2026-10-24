@@ -12,7 +12,7 @@
       <sub>Open to Backend and AI/ML opportunities</sub>
     </td>
     <td width="150" align="center" valign="middle">
-      <img src="https://media1.giphy.com/media/UQ1EI1ML2ABQdbebup/giphy.gif" width="131" height="99" alt="Pixel art cat waving its paws" /><br />
+      <img src="https://media1.giphy.com/media/UQ1EI1ML2ABQdbebup/giphy.gif" width="112" height="112" alt="Pixel art cat waving its paws" /><br />
       <sub><a href="https://giphy.com/explore/pixel-cats-stickers">Animated pixel cat sticker · GIPHY</a></sub>
     </td>
   </tr>
