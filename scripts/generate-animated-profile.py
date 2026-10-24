@@ -64,10 +64,10 @@ def svg(w,h,title,body,bg=CREAM):
     defs='<defs>'+''.join(f'<path id="{k}" d="{GLYPHS[k]}"/>' for k in keys)+'</defs>'
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title"><title id="title">{html.escape(title)}</title>
 <style>.still{{display:none}}@media(prefers-reduced-motion:reduce){{.moving{{display:none}}.still{{display:inline}}}}</style>
-{defs}<rect width="{w}" height="{h}" rx="14" fill="{bg}"/>{body}</svg>'''
+{defs}<rect width="{w}" height="{h}" rx="0" fill="{bg}"/>{body}</svg>'''
 
 def rule(x,y,w,delay='0.01s'):
-    return f'<path d="M{x} {y}h{w}" stroke="#d5c9af" stroke-width="1.5"/><g class="moving"><path d="M{x} {y}h{min(w,50)}" stroke="{RUST}" stroke-width="2"/>{move(f"0 0;{w-min(w,50)} 0;0 0",dur="14s",begin=delay)}</g>'
+    return f'<path d="M{x} {y}h{w}" stroke="#d5c9af" stroke-width="1.5"/><path class="moving" d="M{x} {y}h40" stroke="{RUST}" stroke-width="2" stroke-dasharray="40" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="40;0" dur="1.3s" begin="{delay}" fill="freeze"/></path>'
 
 def save(name,mobile,w,h,title,body,bg=CREAM):
     filename=name+('-mobile' if mobile else '')+'.svg'
@@ -76,34 +76,23 @@ def save(name,mobile,w,h,title,body,bg=CREAM):
     manifest['assets/animated/'+filename]=data
 
 def hero(mobile):
-    w,h=(600,500) if mobile else (1200,440)
+    w,h=(600,360) if mobile else (1200,350)
     if mobile:
-        b=txt('Vivek Pillai.',30,124,100,'serif',maxw=540)
-        b+=txt('Backend & machine learning',34,185,28,maxw=532)
-        b+=txt('engineer',34,226,28,maxw=532)
-        b+=txt('Generative AI',34,310,24,color=INK)
-        b+=txt('Evaluation',34,349,24,color=INK)
-        b+=txt('Computer vision',34,388,24,color=INK)
-        b+=txt('vivzz2216',34,460,21,color=INK)
-        a='translate(323,244) scale(.55)'
+        b=txt('Vivek Pillai',30,120,100,'serif',maxw=540)
+        b+=txt('Backend & machine learning',34,184,28,maxw=532)
+        b+=txt('engineer',34,225,28)
+        b+=txt('Generative AI / Evaluation',34,287,24,color=INK)
+        b+=txt('Computer vision',34,324,24,color=INK)
     else:
-        b=txt('Vivek Pillai.',58,211,126,'serif',maxw=700)
-        b+=txt('Backend & machine learning engineer',66,269,25,maxw=680)
-        b+=txt('Generative AI  /  Evaluation  /  Computer vision',66,313,21,color=INK,maxw=680)
-        b+=txt('vivzz2216',66,384,21,color=INK)
-        b+=rule(64,65,648)
-        a='translate(787,35)'
-    art=f'<circle cx="275" cy="87" r="69" fill="{RUST}"/>'
-    art+=f'<g class="moving"><circle cx="275" cy="87" r="80" fill="none" stroke="{RUST}" stroke-width="1.5"/>{move("0 0;0 -12;0 0","12s")}</g>'
-    art+=f'<path d="M24 327V173a122 122 0 0 1 244 0v154Z" fill="{GREEN}"/><path d="M65 327V176a81 81 0 0 1 162 0v151Z" fill="{CREAM}"/>'
-    art+=f'<path d="M179 327a113 113 0 0 1 226 0Z" fill="{SAGE}"/><rect y="327" width="405" height="13" fill="{GOLD}"/>'
-    art+=f'<g transform="translate(349,198)"><g class="moving"><path d="M0-24v48m-24-24h48" stroke="{RUST}" stroke-width="2.5"/>{move("0;180;360","18s","rotate")}</g><path class="still" d="M0-24v48m-24-24h48" stroke="{RUST}" stroke-width="2.5"/></g>'
-    b+=f'<g transform="{a}">{art}</g>'
+        b=txt('Vivek Pillai',46,182,166,'serif',maxw=1100)
+        b+=txt('Backend & machine learning engineer',54,250,28,maxw=1092)
+        b+=txt('Generative AI / Evaluation / Computer vision',54,299,23,color=INK)
+    b+=rule(34 if mobile else 54,h-12,w-(68 if mobile else 108))
     save('hero',mobile,w,h,'Vivek Pillai — Backend and machine learning engineer',b)
 
 def about(mobile):
     w,h=(600,370) if mobile else (1200,250); x=34 if mobile else 50
-    b=txt('A little about my work.',x,65,44,'serif',maxw=w-2*x)
+    b=txt('About',x,65,44,'serif',maxw=w-2*x)
     text='I build backend systems and machine learning applications, with a focus on generative AI, agent evaluation, and computer vision.'
     block,n=lines(text,x,118,w-2*x,28 if mobile else 29,42)
     b+=block
@@ -132,7 +121,7 @@ def project(mobile,idx,data):
     y=h-22
     b+=rule(x,y,w-2*x,str(.1+idx*.3)+'s')
     bx=w-62; by=55
-    b+=f'<g transform="translate({bx},{by})"><g class="moving"><path d="M-12 0h24m-9-9 9 9-9 9" fill="none" stroke="{RUST}" stroke-width="2"/>{move("0 0;5 0;0 0",str(7+idx)+"s")}</g><path class="still" d="M-12 0h24m-9-9 9 9-9 9" fill="none" stroke="{RUST}" stroke-width="2"/></g>'
+    b+=f'<g transform="translate({bx},{by})"><g class="moving"><path d="M-12 0h24m-9-9 9 9-9 9" fill="none" stroke="{RUST}" stroke-width="2"/></g><path class="still" d="M-12 0h24m-9-9 9 9-9 9" fill="none" stroke="{RUST}" stroke-width="2"/></g>'
     save(slug,mobile,w,h,title+' — '+desc+' Open repository.',b)
 
 STACK=[('Machine learning','Python · PyTorch · Hugging Face · Diffusers · Ollama · OpenCV'),('Backend','FastAPI · Node.js · PostgreSQL · Docker'),('Frontend','TypeScript · JavaScript · React · Next.js · Tailwind CSS · Vite')]
@@ -149,13 +138,13 @@ def stack(mobile):
 
 def footer(mobile):
     w,h=(600,240) if mobile else (1200,200); x=34 if mobile else 50
-    b=txt('Let’s build something',x,80,50 if mobile else 60,'serif',color=CREAM,maxw=w-2*x)
+    b=txt('Say hello.',x,80,50 if mobile else 60,'serif',color=CREAM,maxw=w-2*x)
     if mobile:
-        b+=txt('useful.',x,138,50,'serif',color=CREAM)
+        b+=txt(' ',x,138,50,'serif',color=CREAM)
     else:
-        b=txt('Let’s build something useful.',x,93,66,'serif',color=CREAM,maxw=w-2*x)
-    b+=txt('Get in touch',x,h-45,26,color=CREAM)
-    b+=f'<g transform="translate({205 if mobile else 222},{h-53})"><path d="M0 0h32m-10-10 10 10-10 10" stroke="{GOLD}" fill="none" stroke-width="2.5"/><g class="moving"><circle cx="50" cy="0" r="3.5" fill="{GOLD}"/>{move("0 0;10 0;0 0","8s")}</g></g>'
+        b=txt('Say hello.',x,93,66,'serif',color=CREAM,maxw=w-2*x)
+    b+=txt('pillaivivek200@gmail.com',x,h-45,24,color=CREAM)
+    b+=f'<g transform="translate({w-100},{h-53})"><path d="M0 0h32m-10-10 10 10-10 10" stroke="{GOLD}" fill="none" stroke-width="2.5"/><g class="moving"><circle cx="50" cy="0" r="3.5" fill="{GOLD}"/>{move("0 0;10 0;0 0","8s")}</g></g>'
     save('footer',mobile,w,h,'Let’s build something useful. Get in touch by email.',b,GREEN)
 
 for mobile in [False,True]:
