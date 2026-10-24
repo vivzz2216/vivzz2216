@@ -12,8 +12,8 @@
       <sub>Open to Backend and AI/ML opportunities</sub>
     </td>
     <td width="150" align="center" valign="middle">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Cartoon_Cat_Running.gif" width="131" height="99" alt="Animated hand-drawn cat running" /><br />
-      <sub><a href="https://commons.wikimedia.org/wiki/File:Cartoon_Cat_Running.gif">Cat by Corwin</a> · <a href="https://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a></sub>
+      <img src="https://media1.giphy.com/media/UQ1EI1ML2ABQdbebup/giphy.gif" width="131" height="99" alt="Pixel art cat waving its paws" /><br />
+      <sub><a href="https://giphy.com/explore/pixel-cats-stickers">Animated pixel cat sticker · GIPHY</a></sub>
     </td>
   </tr>
 </table>
