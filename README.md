@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg?style=paper" alt="Vivek Pillai — Backend and machine learning engineer. Generative AI, evaluation, and computer vision." width="100%" />
+  <img src="https://raw.githubusercontent.com/vivzz2216/vivzz2216/6c07a0c351e764e673cbc57b581f38c02f8ea77d/assets/profile-header.svg" alt="Vivek Pillai — Backend and machine learning engineer. Generative AI, evaluation, and computer vision." width="100%" />
 </p>
 
 <br />
